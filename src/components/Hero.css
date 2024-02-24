@@ -1,0 +1,28 @@
+/* CSS for Hero Component */
+
+/* HeroWrapper Styles */
+.hero-wrapper {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    color: var(--mainWhite);
+    background: linear-gradient(var(--primaryRGBA), var(--primaryRGBA)),
+      url('../images/mainBcg.jpeg') center/cover no-repeat;
+  }
+  
+  .hero-wrapper.max-height {
+    min-height: 100vh;
+  }
+  
+  .title {
+    padding: 2rem;
+    font-size: 3.5rem;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+  }
+  
+  /* End of Hero Component CSS */
+  

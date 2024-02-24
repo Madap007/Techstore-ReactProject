@@ -1,0 +1,21 @@
+/* CSS for Footer Component */
+
+/* FooterWrapper Styles */
+.footer-wrapper {
+    background: var(--darkGrey);
+    color: var(--mainWhite);
+  }
+  
+  .footer-wrapper .icon {
+    font-size: 1.5rem;
+    color: var(--mainWhite);
+    transition: var(--mainTransition);
+  }
+  
+  .footer-wrapper .icon:hover {
+    color: var(--primaryColor);
+    cursor: pointer;
+  }
+  
+  /* End of Footer Component CSS */
+  

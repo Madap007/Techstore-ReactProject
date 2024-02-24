@@ -1,0 +1,50 @@
+/* CSS for Sidebar Component */
+
+/* SideWrapper Styles */
+.side-wrapper {
+    position: fixed;
+    top: 61px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--mainGrey);
+    z-index: 1;
+    border-right: 4px solid var(--primaryColor);
+    transition: var(--mainTransition);
+    transform: translateX(-100%);
+  }
+  
+  .side-wrapper.show {
+    transform: translateX(0);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0 !important;
+  }
+  
+  .sidebar-link {
+    display: block;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: var(--mainBlack);
+    padding: 0.5rem 1.5rem;
+    background: transparent;
+    transition: var(--mainTransition);
+  }
+  
+  .sidebar-link:hover {
+    background: var(--primaryColor);
+    color: var(--mainWhite);
+    padding: 0.5rem 1.5rem 0.5rem 2.5rem;
+    text-decoration: none;
+  }
+  
+  @media (min-width: 576px) {
+    .side-wrapper {
+      width: 20rem;
+    }
+  }
+  
+  /* End of Sidebar Component CSS */
+  

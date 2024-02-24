@@ -1,0 +1,61 @@
+/* CSS for Product Component */
+
+/* ProductWrapper Styles */
+.product-wrapper {
+    margin: 2rem 0;
+  }
+  
+  .card {
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: var(--mainTransition);
+    height: 100%;
+  }
+  
+  .card:hover {
+    box-shadow: 7px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  
+  .card-img-top {
+    transition: var(--mainTransition);
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.5);
+    opacity: 0.2;
+  }
+  
+  .img-container {
+    position: relative;
+  }
+  
+  .product-icons {
+    transition: var(--mainTransition);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    color: var(--primaryColor);
+    background: var(--mainBlack);
+    border-radius: 0.5rem;
+  }
+  
+  .card:hover .product-icons {
+    opacity: 1;
+  }
+  
+  .card-body {
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  /* End of Product Component CSS */
+  

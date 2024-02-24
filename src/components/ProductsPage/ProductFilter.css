@@ -1,0 +1,26 @@
+/* CSS for ProductFilter Component */
+
+/* FilterWrapper Styles */
+.filter-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+  }
+  
+  .filter-wrapper label {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .filter-wrapper .filter-item,
+  .filter-wrapper .filter-price {
+    display: block;
+    width: 100%;
+    background: transparent;
+    border-radius: 0.5rem;
+    border: 2px solid var(--darkGrey);
+  }
+  
+  /* End of ProductFilter Component CSS */
+  

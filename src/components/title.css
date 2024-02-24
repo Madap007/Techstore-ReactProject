@@ -1,0 +1,24 @@
+/* CSS for Title Component */
+
+/* TitleWrapper Styles */
+.title-wrapper {
+    display: flex;
+  }
+  
+  .title-wrapper .col {
+    text-align: left;
+  }
+  
+  .title-wrapper.center {
+    justify-content: center;
+  }
+  
+  .title-underline {
+    height: 0.25rem;
+    width: 7rem;
+    background: var(--primaryColor);
+    margin: 0;
+  }
+  
+  /* End of Title Component CSS */
+  

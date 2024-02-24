@@ -1,0 +1,38 @@
+/* CSS for Sidecart Component */
+
+/* CartWrapper Styles */
+.cart-wrapper {
+    position: fixed;
+    top: 60px;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background: var(--mainGrey);
+    z-index: 1;
+    border-left: 4px solid var(--primaryColor);
+    transition: var(--mainTransition);
+    overflow: scroll;
+    padding: 2rem;
+    transform: translateX(100%);
+  }
+  
+  .cart-wrapper.show {
+    transform: translateX(0);
+  }
+  
+  @media (min-width: 576px) {
+    .cart-wrapper {
+      width: 20rem;
+    }
+  }
+  
+  ul {
+    padding: 0 !important;
+  }
+  
+  .cart-item {
+    list-style: none;
+  }
+  
+  /* End of Sidecart Component CSS */
+  

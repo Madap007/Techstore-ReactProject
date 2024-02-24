@@ -1,0 +1,56 @@
+/* styles.css
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .custom-container {
+    margin-top: 50px;
+  }
+  
+  .custom-card {
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-image {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  .custom-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .custom-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .custom-input-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .custom-input-group i {
+    margin-right: 15px;
+  }
+  
+  .custom-checkbox {
+    margin-bottom: 20px;
+  }
+  
+  .custom-btn {
+    margin-bottom: 20px;
+  }
+   */
